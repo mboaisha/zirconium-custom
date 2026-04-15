@@ -1,19 +1,36 @@
-# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+## Zirconium-Custom
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+- This is a custom image of [Zirconium](https://github.com/zirconium-dev/zirconium) with some personal touches
+- Laptop is a Lenovo Thinkpad X1 Carbon, Gen6
 
-After setup, it is recommended you update this README to describe your custom image.
+### Plans
+- More font choices
+- Replace `foot` with something else such as `kitty` or `ghostty`
+    - also figure out how to wire it all to `matugen`
+- Add stuff you'd find in a `*-dx` image
+    - VSCode, will probably use VSCodium instead.
+    - Podman and Poadman Desktop
+    - Distroshelf
+    - virt-manager along with qemu and kvm
+    - Maybe incus
+    - devcontainer integration with `neovim` and `vscodium`
+    - Ansible?
+- Layer Steam client directly as opposed to using it as a flatpak
+- Put in [Oh My Bash](https://github.com/ohmybash/oh-my-bash)
+    - I would love to try alternate shells such as `zsh` and `fish`, but I want to stay with `bash` for now.
+- Better Arabic / Right-To-Left Language support
+- Preloaded wallpapers
+- Change `motd`
+- Configure the fetch
+- Figure out how to get the fingerprint scanner / auth working
+
 
 ## Installation
-
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
-
 To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/blue-build/template:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/mboaisha/zirconium-custom:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -21,18 +38,12 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/blue-build/template:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/mboaisha/zirconium-custom:latest
   ```
 - Reboot again to complete the installation
   ```
   systemctl reboot
   ```
-
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
-
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
