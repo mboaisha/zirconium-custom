@@ -9,5 +9,5 @@ description: This is my personal OS image.
 base-image: ghcr.io/zirconium-dev/zirconium
 image-version: latest
 
-
-type: signing # this sets up the proper policy & signing files for signed images to work fully
+modules:
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
