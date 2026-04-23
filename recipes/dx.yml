@@ -1,0 +1,10 @@
+modules:
+  - type: dnf
+    install:
+      # Install virtualization
+      packages:
+        - qemu
+        - qemu-kvm
+        - libvirt
+        - edk2-ovmf
+        - guestfs-tools

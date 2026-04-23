@@ -13,3 +13,4 @@ modules:
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
   - from-file: fonts.yml
   - from-file: flatpaks.yml
+  - from-file: dx.yml
