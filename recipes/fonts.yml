@@ -1,0 +1,17 @@
+# Fonts go here
+type: fonts
+fonts:
+  nerd-fonts:
+    - FiraCode
+    - FiraMono
+    - GeistMono
+    - Hack
+    - Inconsolata
+    - Iosevka
+    - IosevkaTerm
+    - IosevkaTermSlab
+    - JetBrainsMono
+    - Lilex
+    - Mononoki
+    - RobotoMono
+    - ZedMono
