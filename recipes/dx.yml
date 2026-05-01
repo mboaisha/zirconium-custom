@@ -1,10 +1,22 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/dnf-latest.json
+---
+
 modules:
   - type: dnf
     install:
       # Install virtualization
       packages:
+        - libvirt
+        - virt-install
+        - libvirt-daemon-config-network
+        - libvirt-daemon-kvm
+        - libguestfs-tools
+        - python3-libguestfs
+        - virt-top
         - qemu
         - qemu-kvm
-        - libvirt
         - edk2-ovmf
         - guestfs-tools
+        - virt-manager
+        - virt-viewer
+        
