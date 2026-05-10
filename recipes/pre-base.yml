@@ -1,3 +1,5 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 modules:
   - type: dnf
     install:
@@ -5,21 +7,23 @@ modules:
         - btop
         - nvtop
         - dolphin
+        - steam
   - type: fonts
-    nerd-fonts:
-      - FiraCode
-      - FiraMono
-      - GeistMono
-      - Hack
-      - Inconsolata
-      - Iosevka
-      - IosevkaTerm
-      - IosevkaTermSlab
-      - JetBrainsMono
-      - Lilex
-      - Mononoki
-      - RobotoMono
-      - ZedMono
+    fonts:
+      nerd-fonts:
+        - FiraCode
+        - FiraMono
+        - GeistMono
+        - Hack
+        - Inconsolata
+        - Iosevka
+        - IosevkaTerm
+        - IosevkaTermSlab
+        - JetBrainsMono
+        - Lilex
+        - Mononoki
+        - RobotoMono
+        - ZedMono
   - type: default-flatpaks
     configurations:
       - scope: user
