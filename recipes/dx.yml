@@ -1,4 +1,4 @@
-moduels:
+modules:
   - type: dnf
     repos:
       cleanup: true
