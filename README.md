@@ -5,7 +5,7 @@
 
 ### Plans
 - More font choices
-- Replace `foot` with something else such as `kitty` or `ghostty`
+- Replace `foot` with something else such as `kitty`, `ghostty` or `alacritty`
     - also figure out how to wire it all to `matugen`
 - Add stuff you'd find in a `*-dx` image
     - VSCode, will probably use VSCodium instead.
