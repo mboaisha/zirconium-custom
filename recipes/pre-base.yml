@@ -8,6 +8,7 @@ modules:
         - nvtop
         - dolphin
         - steam
+        - neovim
   - type: fonts
     fonts:
       nerd-fonts:
