@@ -23,6 +23,7 @@
 - Change `motd`
 - Configure the fetch
 - Figure out how to get the fingerprint scanner / auth working
+- Somehow pre-install app images
 
 
 ## Installation
