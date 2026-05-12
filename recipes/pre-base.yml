@@ -27,7 +27,7 @@ modules:
         - ZedMono
   - type: default-flatpaks
     configurations:
-      - scope: user
+      - scope: system
         notify: true
         install:
           - org.remmina.Remmina # Remote desktop client
