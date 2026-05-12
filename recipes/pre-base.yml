@@ -44,3 +44,5 @@ modules:
           - org.videolan.VLC # VLC for video
           - org.localsend.localsend_app # LocalSend (local network file sharing)
           #- com.github.marhkb.Pods
+          - org.chromium.Chromium
+          - org.chromium.Chromium.Codecs
