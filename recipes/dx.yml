@@ -22,6 +22,6 @@ modules:
           title: Flathub (system)
         install:
           - io.podman_desktop.PodmanDesktop # Podman desktop
-          - me.iepure.devtoolbox
+          - me.iepure.devtoolbox # useful devtools
           #- com.github.marhkb.Pods
-          - com.ranfdev.DistroShelf
+          - com.ranfdev.DistroShelf # Mange distrbox via GUI
