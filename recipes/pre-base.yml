@@ -45,3 +45,4 @@ modules:
           - org.localsend.localsend_app # LocalSend (local network file sharing)
           - org.chromium.Chromium
           - org.chromium.Chromium.Codecs
+          - com.bitwarden.desktop
