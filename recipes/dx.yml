@@ -15,7 +15,7 @@ modules:
         - virtualization
   - type: default-flatpaks
     configurations:
-      - scope: user
+      - scope: system
         notify: true
         install:
           - io.podman_desktop.PodmanDesktop # Podman desktop
