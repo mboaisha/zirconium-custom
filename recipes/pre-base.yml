@@ -43,3 +43,4 @@ modules:
           - com.github.tchx84.Flatseal # Flatseal for flatpak permissions management
           - org.videolan.VLC # VLC for video
           - org.localsend.localsend_app # LocalSend (local network file sharing)
+          #- com.github.marhkb.Pods
