@@ -17,6 +17,10 @@ modules:
     configurations:
       - scope: system
         notify: true
+        repo:
+          url: https://flathub.org/repo/flathub.flatpakrepo
+          title: Flathub (system)
         install:
           - io.podman_desktop.PodmanDesktop # Podman desktop
+          - me.iepure.devtoolbox
           #- com.github.marhkb.Pods
