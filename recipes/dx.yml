@@ -19,3 +19,4 @@ modules:
         notify: true
         install:
           - io.podman_desktop.PodmanDesktop # Podman desktop
+          #- com.github.marhkb.Pods
