@@ -4,12 +4,13 @@ modules:
   - type: dnf
     install:
       packages:
-        - btop
-        - nvtop
-        - dolphin
-        - steam
-        - neovim
-        - bat
+        - btop # htop but nicer
+        - nvtop # iGPU stats
+        - dolphin # KDE's file manager
+        - steam # Gaming
+        - neovim # What it says on the tin
+        - bat # cat, but better
+        - tmux # Terminal multiplexer
   - type: fonts
     fonts:
       nerd-fonts:
@@ -47,6 +48,6 @@ modules:
           - com.github.tchx84.Flatseal # Flatseal for flatpak permissions management
           - org.videolan.VLC # VLC for video
           - org.localsend.localsend_app # LocalSend (local network file sharing)
-          - org.chromium.Chromium
-          - org.chromium.Chromium.Codecs
-          - com.bitwarden.desktop
+          - org.chromium.Chromium # Chromium  browser
+          - org.chromium.Chromium.Codecs # . . . codecs and such
+          - com.bitwarden.desktop # Password manager, client for bitwarden / vaultwarden
