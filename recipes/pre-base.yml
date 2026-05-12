@@ -9,6 +9,7 @@ modules:
         - dolphin
         - steam
         - neovim
+        - bat
   - type: fonts
     fonts:
       nerd-fonts:
