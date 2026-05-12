@@ -18,4 +18,4 @@ modules:
       - scope: user
         notify: true
         install:
-          - flathub io.podman_desktop.PodmanDesktop # Podman desktop
+          - io.podman_desktop.PodmanDesktop # Podman desktop
