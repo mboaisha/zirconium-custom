@@ -8,4 +8,14 @@ modules:
         - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
     install:
       packages:
-        - codium
+        - codium # VSCodium, alternative to VSCode
+    group-install: # Install virtualization tooling
+      with-optional: true
+      packages:
+        - virtualization
+  - type: default-flatpaks
+    configurations:
+      - scope: user
+        notify: true
+        install:
+          - flathub io.podman_desktop.PodmanDesktop # Podman desktop
