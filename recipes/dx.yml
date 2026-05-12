@@ -24,3 +24,4 @@ modules:
           - io.podman_desktop.PodmanDesktop # Podman desktop
           - me.iepure.devtoolbox
           #- com.github.marhkb.Pods
+          - com.ranfdev.DistroShelf
