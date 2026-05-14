@@ -1,3 +1,12 @@
+---
+# "dx" (developer experience) tweaks
+# What does it include?
+# - VSCodium
+# - Virtualization (libvirt + virt-manager and other goodies)
+# - Podman Desktop (as flatpak)
+# - Devtoolbox flatpak
+# - Distroshelf flatpak
+
 modules:
   - type: dnf
     repos:
