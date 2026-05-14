@@ -11,6 +11,7 @@ modules:
         - neovim # What it says on the tin
         - bat # cat, but better
         - tmux # Terminal multiplexer
+        #- zed 
   - type: fonts
     fonts:
       nerd-fonts:
