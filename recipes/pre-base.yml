@@ -2,6 +2,9 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 modules:
   - type: dnf
+    repos:
+      copr:
+        - mboaisha/assortment
     install:
       packages:
         - btop # htop but nicer
@@ -12,6 +15,7 @@ modules:
         - bat # cat, but better
         - tmux # Terminal multiplexer
         #- zed 
+        - lavat
   - type: fonts
     fonts:
       nerd-fonts:
