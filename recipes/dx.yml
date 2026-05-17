@@ -24,8 +24,8 @@ modules:
         - virtualization
   - type: default-flatpaks
     configurations:
-      - scope: system
-        notify: true
+      - scope: user
+        notify: false
         repo:
           url: https://flathub.org/repo/flathub.flatpakrepo
           title: Flathub (system)
