@@ -2,14 +2,20 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 modules:
   - type: dnf
+    repos:
+      copr:
+        - mboaisha/assortment
     install:
       packages:
-        - btop
-        - nvtop
-        - dolphin
-        - steam
-        - neovim
-        - bat
+        - btop # htop but nicer
+        - nvtop # iGPU stats
+        - dolphin # KDE's file manager
+        - steam # Gaming
+        - neovim # What it says on the tin
+        - bat # cat, but better
+        - tmux # Terminal multiplexer
+        #- zed 
+        - lavat
   - type: fonts
     fonts:
       nerd-fonts:
@@ -28,8 +34,8 @@ modules:
         - ZedMono
   - type: default-flatpaks
     configurations:
-      - scope: system
-        notify: true
+      - scope: user
+        notify: false
         repo:
           url: https://flathub.org/repo/flathub.flatpakrepo
           title: Flathub (system)
@@ -47,6 +53,6 @@ modules:
           - com.github.tchx84.Flatseal # Flatseal for flatpak permissions management
           - org.videolan.VLC # VLC for video
           - org.localsend.localsend_app # LocalSend (local network file sharing)
-          - org.chromium.Chromium
-          - org.chromium.Chromium.Codecs
-          - com.bitwarden.desktop
+          - org.chromium.Chromium # Chromium  browser
+          - org.chromium.Chromium.Codecs # . . . codecs and such
+          - com.bitwarden.desktop # Password manager, client for bitwarden / vaultwarden

@@ -1,3 +1,12 @@
+---
+# "dx" (developer experience) tweaks
+# What does it include?
+# - VSCodium
+# - Virtualization (libvirt + virt-manager and other goodies)
+# - Podman Desktop (as flatpak)
+# - Devtoolbox flatpak
+# - Distroshelf flatpak
+
 modules:
   - type: dnf
     repos:
@@ -15,12 +24,13 @@ modules:
         - virtualization
   - type: default-flatpaks
     configurations:
-      - scope: system
-        notify: true
+      - scope: user
+        notify: false
         repo:
           url: https://flathub.org/repo/flathub.flatpakrepo
           title: Flathub (system)
         install:
           - io.podman_desktop.PodmanDesktop # Podman desktop
-          - me.iepure.devtoolbox
+          - me.iepure.devtoolbox # useful devtools
           #- com.github.marhkb.Pods
+          - com.ranfdev.DistroShelf # Mange distrbox via GUI
