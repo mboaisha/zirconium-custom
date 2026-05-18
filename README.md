@@ -13,7 +13,8 @@
     - Distroshelf
     - virt-manager along with qemu and kvm
     - Maybe incus
-    - devcontainer integration with `neovim` and `vscodium`
+    -~~devcontainer integration with `neovim` and `vscodium`~~
+      - Supposedly it's a pain in the neck to get working with VSCodium.
     - Ansible?
 - Layer Steam client directly as opposed to using it as a flatpak
 - Put in [Oh My Bash](https://github.com/ohmybash/oh-my-bash)
