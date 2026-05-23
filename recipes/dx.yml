@@ -18,6 +18,7 @@ modules:
     install:
       packages:
         - codium # VSCodium, alternative to VSCode
+        - zsh # zsh is available in Fedora repos
     group-install: # Install virtualization tooling
       with-optional: true
       packages:
