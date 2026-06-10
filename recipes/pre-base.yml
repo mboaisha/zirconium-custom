@@ -16,6 +16,7 @@ modules:
         - tmux # Terminal multiplexer
         #- zed 
         - lavat
+        - neo # Cooler Cmatrix
   - type: fonts
     fonts:
       nerd-fonts:

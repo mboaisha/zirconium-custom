@@ -19,6 +19,7 @@ modules:
       packages:
         - codium # VSCodium, alternative to VSCode
         - zsh # zsh is available in Fedora repos
+        - ripgrep # Optional dep for AstroNvim
     group-install: # Install virtualization tooling
       with-optional: true
       packages:
