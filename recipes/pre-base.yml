@@ -52,7 +52,6 @@ modules:
           - md.obsidian.Obsidian # Obsidian MD
           - it.mijorus.gearlever # Gear Lever, for app images
           - com.github.tchx84.Flatseal # Flatseal for flatpak permissions management
-          - org.videolan.VLC # VLC for video
           - org.localsend.localsend_app # LocalSend (local network file sharing)
           - org.chromium.Chromium # Chromium  browser
           - org.chromium.Chromium.Codecs # . . . codecs and such
