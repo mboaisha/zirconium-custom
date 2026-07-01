@@ -15,7 +15,7 @@ modules:
         - bat # cat, but better
         - tmux # Terminal multiplexer
         #- zed 
-        - lavat
+        - lavat # Lava lamp
         - neo # Cooler Cmatrix
   - type: fonts
     fonts:
