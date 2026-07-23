@@ -9,12 +9,11 @@ modules:
       packages:
         - btop # htop but nicer
         - nvtop # iGPU stats
-        - dolphin # KDE's file manager
         - steam # Gaming
         - neovim # What it says on the tin
         - bat # cat, but better
         - tmux # Terminal multiplexer
-        #- zed 
+        #- zed
         - lavat # Lava lamp
         - neo # Cooler Cmatrix
   - type: fonts
@@ -33,6 +32,8 @@ modules:
         - Mononoki
         - RobotoMono
         - ZedMono
+        - BigBlueTerminal
+        - AtkinsonHyperlegibleMono
   - type: default-flatpaks
     configurations:
       - scope: user
