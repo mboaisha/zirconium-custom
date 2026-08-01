@@ -40,7 +40,7 @@ modules:
         notify: false
         repo:
           url: https://flathub.org/repo/flathub.flatpakrepo
-          title: Flathub (system)
+          title: Flathub (user)
         install:
           - org.remmina.Remmina # Remote desktop client
           - dev.vencord.Vesktop # Discord client
