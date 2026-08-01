@@ -7,7 +7,6 @@ modules:
         - mboaisha/assortment
     install:
       packages:
-        - btop # htop but nicer
         - nvtop # iGPU stats
         - steam # Gaming
         - neovim # What it says on the tin
