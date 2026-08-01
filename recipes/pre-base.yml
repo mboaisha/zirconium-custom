@@ -5,6 +5,7 @@ modules:
     repos:
       copr:
         - mboaisha/assortment
+      nonfree: rpmfusion
     install:
       packages:
         - nvtop # iGPU stats
