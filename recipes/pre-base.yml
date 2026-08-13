@@ -5,6 +5,7 @@ modules:
     repos:
       copr:
         - mboaisha/assortment
+        - imput/helium
       nonfree: rpmfusion
     install:
       packages:
@@ -16,6 +17,7 @@ modules:
         #- zed
         - lavat # Lava lamp
         - neo # Cooler Cmatrix
+        - helium-bin # Helium browser
   - type: fonts
     fonts:
       nerd-fonts:
